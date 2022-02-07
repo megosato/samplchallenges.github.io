@@ -89,4 +89,4 @@ jobs:
         with: 
           add: '_history/01_references.md'
           author_name: 'Github Actions'
-          message: 'Your commit message'
+          message: 'Update Zotero references for List of all SAMPL references'
