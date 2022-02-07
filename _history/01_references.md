@@ -28,7 +28,7 @@ The various SAMPL challenges are described in:
 
 ## Additional references
 
-A full list of some 100 SAMPL references we previously identified is also available in the [SAMPL proposal](http://escholarship.org/uc/item/7cf8c6cr)
+A full list of some 100 SAMPL references we previously identified is also available in the [SAMPL proposal](http://escholarship.org/uc/item/7cf8c6cr).
 
 We plan to propagate a complete reference list to this website, a working list is provided below. 
 
