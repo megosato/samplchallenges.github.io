@@ -72,7 +72,7 @@ jobs:
             
       # Commit the created reference file to the Master branch
       - name: Commit references file
-        uses: dmnemec/copy_file_to_another_repo_action@master
+        uses: dmnemec/copy_file_to_another_repo_action@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
