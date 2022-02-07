@@ -78,6 +78,7 @@ jobs:
         with:
           source_file: '01_references.md'
           destination_repo: 'megosato/samplchallenges.github.io'
+          destination_branch: 'master'
           destination_folder: '_history'
           user_email: 'osatom@uci.edu'
           user_name: 'megosato'
