@@ -89,7 +89,7 @@ if __name__ == "__main__":
     # must use zot.everything() to gather references otherwise results are
     # capped at 100 items
     
-    items = zot.items(limit=10)
+    items = zot.items(limit=12)
     #items = zot.everything(zot.top())
 
     # Gather Reference Identifiers
