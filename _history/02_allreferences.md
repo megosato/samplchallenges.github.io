@@ -50,3 +50,13 @@ DOI: [10.1007/s10822-016-9933-0](https://doi.org/10.1007/s10822-016-9933-0) · P
 Yiğitcan Eken, Nuno M. S. Almeida, Cong Wang, Angela K. Wilson  
 *Journal of Computer-Aided Molecular Design* (2020-11-05) <https://doi.org/gpjnzn>   
 DOI: [10.1007/s10822-020-00357-3](https://doi.org/10.1007/s10822-020-00357-3) · PMID: [33150463](https://www.ncbi.nlm.nih.gov/pubmed/33150463)
+
+9. **AMOEBA binding free energies for the SAMPL7 TrimerTrip host–guest challenge**   
+Yuanjun Shi, Marie L. Laury, Zhi Wang, Jay W. Ponder  
+*Journal of Computer-Aided Molecular Design* (2020-11-03) <https://doi.org/gjv786>   
+DOI: [10.1007/s10822-020-00358-2](https://doi.org/10.1007/s10822-020-00358-2) · PMID: [33140208](https://www.ncbi.nlm.nih.gov/pubmed/33140208) · PMCID: [PMC7867568](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7867568)
+
+10. **Non-equilibrium approach for binding free energies in cyclodextrins in SAMPL7: force fields and software**   
+Yuriy Khalak, Gary Tresadern, Bert L. de Groot, Vytautas Gapsys  
+*Journal of Computer-Aided Molecular Design* (2020-11-24) <https://doi.org/gjv782>   
+DOI: [10.1007/s10822-020-00359-1](https://doi.org/10.1007/s10822-020-00359-1) · PMID: [33230742](https://www.ncbi.nlm.nih.gov/pubmed/33230742) · PMCID: [PMC7862541](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7862541)
