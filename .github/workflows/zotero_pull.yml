@@ -91,6 +91,8 @@ jobs:
       - name: Create commits
         if: steps.changes.outputs.changed == 1
         run: |
+          git config --global user.email "zotero_pull@github.com"
+          git config --global user.name "Zotero Pull Workflow"
           git add _history/02_allreferences.md
           git commit -m "zotero_pull action: Update 02_allreferences.md List"
 
