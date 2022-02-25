@@ -84,10 +84,16 @@ jobs:
       #    user_email: 'osatom@uci.edu'
       #    user_name: 'megosato'
       #    commit_message: 'Update references file with zotero references'
+      - name: Check if there are changes
+        id: changes
+        uses: UnicornGlobal/has-changes-action@v1.0.11
 
-      - name: Commit references file
-        uses: EndBug/add-and-commit@v8 
-        with: 
-          add: '_history/02_allreferences.md'
-          author_name: 'Github Actions'
-          message: 'Update references in List of all SAMPL references from Mobley Lab Zotero'
+      - name: Create commits
+        if ${{ steps.changes.outputs.changed }}:
+        run: |
+          git add _history/02_allreferences.md
+          git commit -m "zotero_pull action: Update 02_allreferences.md List"
+
+      - name: Create PR with updated references file
+        if ${{ steps.changes.outputs.changed }}:
+        uses: peter-evans/create-pull-request@v3
