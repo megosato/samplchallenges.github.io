@@ -88,7 +88,9 @@ if __name__ == "__main__":
         raise NotImplementedError
     # must use zot.everything() to gather references otherwise results are
     # capped at 100 items
-    items = zot.everything(zot.top())
+    
+    items = zot.items(limit=10)
+    #items = zot.everything(zot.top())
 
     # Gather Reference Identifiers
     string_of_identifiers = ""
