@@ -100,4 +100,4 @@ jobs:
         if: steps.changes.outputs.changed == 1
         uses: peter-evans/create-pull-request@v3
         with:
-          title: 'Zotero Pull Workflow update references
+          title: "Zotero Pull Workflow update all references list"
