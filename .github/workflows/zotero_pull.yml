@@ -64,11 +64,12 @@ jobs:
           ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}
         run: |
           pipenv run python generate_references.py \
-            -t "test" \
+            -t "SAMPL-website" \
             --lib-id "$ZOTERO_LIBRARY_ID" \
+            --lib-type "group"
             --api-key "$ZOTERO_API_KEY" \
-            --outfile "_history/01_references.md" \
-            --headerfile "_history/references_header.md"
+            --outfile "_history/02_allreferences.md" \
+            --headerfile "_history/allreferences_header.md"
             
       # Commit the created reference file to the Master branch
       #- name: Commit references file
@@ -87,6 +88,6 @@ jobs:
       - name: Commit references file
         uses: EndBug/add-and-commit@v8 
         with: 
-          add: '_history/01_references.md'
+          add: '_history/02_allreferences.md'
           author_name: 'Github Actions'
-          message: 'Update Zotero references for List of all SAMPL references'
+          message: 'Update references in List of all SAMPL references from Mobley Lab Zotero'
