@@ -66,7 +66,7 @@ jobs:
           pipenv run python generate_references.py \
             -t "SAMPL-website" \
             --lib-id "$ZOTERO_LIBRARY_ID" \
-            --lib-type "group"
+            --lib-type "group" \
             --api-key "$ZOTERO_API_KEY" \
             --outfile "_history/02_allreferences.md" \
             --headerfile "_history/allreferences_header.md"
